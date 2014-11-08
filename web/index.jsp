@@ -1,3 +1,4 @@
+<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
 <%--
   Created by IntelliJ IDEA.
   User: vladislav
@@ -11,6 +12,11 @@
     <title></title>
   </head>
   <body>
-        
+        <%--<c:out value="${data}"/>--%>
+${data}
+  <form method="post" action="">
+      <input type="text" name="text">
+      <input type="submit">
+  </form>
   </body>
 </html>
